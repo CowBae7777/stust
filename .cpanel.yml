@@ -1,0 +1,7 @@
+---
+deployment:
+  task:
+    task:
+      - export DEPLOYPATH=/home1/llvmmmmy/public_html/temp/
+      - /bin/cp index.html $DEPLOYPATH
+      - /bin/cp style.css $DEPLOYPATH
